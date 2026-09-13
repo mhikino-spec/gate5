@@ -1,0 +1,32 @@
+test_authentication_and_seed_preserves (test_app.LendingTests.test_authentication_and_seed_preserves) ... ok
+test_concurrent_same_borrower (test_app.LendingTests.test_concurrent_same_borrower) ... ok
+test_concurrent_same_device (test_app.LendingTests.test_concurrent_same_device) ... ok
+test_database_guards (test_app.LendingTests.test_database_guards) ... ok
+test_dates_and_boundaries (test_app.LendingTests.test_dates_and_boundaries) ... ok
+test_device_states (test_app.LendingTests.test_device_states) ... ok
+test_employee_states (test_app.LendingTests.test_employee_states) ... ok
+test_idempotent_concurrent_and_restart (test_app.LendingTests.test_idempotent_concurrent_and_restart) ... ok
+test_ids (test_app.LendingTests.test_ids) ... ok
+test_inconsistent_device_rejected (test_app.LendingTests.test_inconsistent_device_rejected) ... ok
+test_last_device (test_app.LendingTests.test_last_device) ... ok
+test_loan_rollback_and_retry (test_app.LendingTests.test_loan_rollback_and_retry) ... ok
+test_midnight_revalidation (test_app.LendingTests.test_midnight_revalidation) ... ok
+test_normal_loan_return (test_app.LendingTests.test_normal_loan_return) ... ok
+test_overdue_can_return (test_app.LendingTests.test_overdue_can_return) ... ok
+test_purpose (test_app.LendingTests.test_purpose) ... ok
+test_return_duplicates_and_old_loan (test_app.LendingTests.test_return_duplicates_and_old_loan) ... ok
+test_return_rollback (test_app.LendingTests.test_return_rollback) ... ok
+test_revalidate_after_confirmation (test_app.LendingTests.test_revalidate_after_confirmation) ... ok
+test_tokens_ownership_and_expiry (test_app.LendingTests.test_tokens_ownership_and_expiry) ... ok
+test_unauthorized_return_and_actor (test_app.LendingTests.test_unauthorized_return_and_actor) ... ok
+test_csrf_rejection (test_http.HttpTests.test_csrf_rejection) ... ok
+test_get_cannot_mutate (test_http.HttpTests.test_get_cannot_mutate) ... ok
+test_http_normal_replay_html_escape (test_http.HttpTests.test_http_normal_replay_html_escape) ... ok
+test_tampered_confirmation (test_http.HttpTests.test_tampered_confirmation) ... ok
+test_unauthenticated_no_update (test_http.HttpTests.test_unauthenticated_no_update) ... ok
+test_unicode_csrf_rejected (test_http.HttpTests.test_unicode_csrf_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 56.917s
+
+OK
